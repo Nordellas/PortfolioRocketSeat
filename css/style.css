@@ -84,7 +84,7 @@ a{
 }
 
 .card.social{
-  padding: 30px 43px;
+  padding: 30px 45px;
 }
 
 .card.social ul{
@@ -158,6 +158,8 @@ a{
 .card.proj-title a{
   font-size: 14px;
   font-weight: 300;
+  display: flex;
+  justify-content: space-between; 
 }
 
 .projects{
@@ -200,11 +202,7 @@ a{
   border: 2px solid var(--text-color);
 }
 
-.css{
-  background: var(--border-profile);
-}
-
-.html{
+.css, .html{
   background: var(--border-profile);
 }
 
